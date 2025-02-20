@@ -27,5 +27,5 @@ function calculateNumerology() {
     }
 
     // Display result
-    document.getElementById("result").innerText = `Numerology Number: ${sum}`;
+    document.getElementById("result").innerText = `Your Number Name is: ${sum}`;
 }
