@@ -22,7 +22,7 @@ function calculateNumerology() {
     }
 
     // Reduce sum to a single digit
-    while (sum > 9 && ) {
+    while (sum > 9 ) {
         sum = sum.toString().split('').reduce((acc, digit) => acc + parseInt(digit), 0);
     }
 
